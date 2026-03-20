@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato — Descomplicando Saúde</title>
+  <meta name="description" content="Entre em contato com a equipe do Descomplicando Saúde. Sugestões de temas, correções ou parcerias.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://descomplicandosaude.com.br/contato.html">
+  <meta property="og:title" content="Contato — Descomplicando Saúde">
+  <meta property="og:url" content="https://descomplicandosaude.com.br/contato.html">
+  <link rel="icon" href="/assets/img/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+  <header class="site-header" id="header">
+    <div class="header-inner">
+      <a href="/" class="logo">
+        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="36" height="36" rx="10" fill="#059669"/>
+          <path d="M18 8v20M8 18h20" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="18" cy="18" r="6" stroke="#fff" stroke-width="2" fill="none"/>
+        </svg>
+        <span class="logo-text">Descomplicando<span>Saúde</span></span>
+      </a>
+      <button class="nav-toggle" aria-label="Abrir menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="/blog/">Artigos</a></li>
+          <li><a href="/sobre.html">Sobre</a></li>
+          <li><a href="/contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <h1>Contato</h1>
+    <p>Sugestões, correções, feedback ou parcerias — estamos ouvindo.</p>
+  </section>
+
+  <main class="page-content">
+
+    <h2>Fale conosco</h2>
+    <p>Tem uma sugestão de tema? Encontrou uma informação que precisa ser corrigida? Quer propor uma parceria editorial? Envie uma mensagem para:</p>
+    <p style="font-size:1.1rem"><strong>contato@descomplicandosaude.com.br</strong></p>
+
+    <p>Ou use o formulário abaixo:</p>
+
+    <form class="contact-form" action="https://formspree.io/f/FORM_ID" method="POST">
+      <div>
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" required placeholder="Seu nome">
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="seu@email.com">
+      </div>
+      <div>
+        <label for="subject">Assunto</label>
+        <input type="text" id="subject" name="subject" required placeholder="Sugestão de tema, correção, parceria...">
+      </div>
+      <div>
+        <label for="message">Mensagem</label>
+        <textarea id="message" name="message" required placeholder="Conte-nos mais..."></textarea>
+      </div>
+      <button type="submit">Enviar mensagem</button>
+    </form>
+
+    <h2>Aviso importante</h2>
+    <p>O Descomplicando Saúde é um portal de informação e <strong>não presta atendimento médico</strong>. Se você está passando por uma emergência de saúde, ligue para o <strong>SAMU (192)</strong> ou dirija-se ao pronto-socorro mais próximo.</p>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-text" style="color:#a7f3d0">Descomplicando<span style="color:#6ee7b7">Saúde</span></span>
+        <p>Informação de saúde acessível e baseada em evidências para o público brasileiro.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <a href="/blog/">Artigos</a>
+        <a href="/sobre.html">Sobre nós</a>
+        <a href="/contato.html">Contato</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="/privacidade.html">Política de Privacidade</a>
+        <a href="/sobre.html#editorial">Política Editorial</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2025 Descomplicando Saúde. Todos os direitos reservados.</span>
+      <span>Este site não substitui orientação médica profissional.</span>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js"></script>
+  <script>
+    window.addEventListener('scroll', function() {
+      document.getElementById('header').classList.toggle('scrolled', window.scrollY > 10);
+    });
+  </script>
+</body>
+</html>
