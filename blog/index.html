@@ -15,6 +15,13 @@
   <link rel="icon" href="/assets/img/favicon.ico">
   <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
   <link rel="stylesheet" href="/assets/css/style.css">
+  <style>
+    .filter-bar { display:flex; gap:.5rem; flex-wrap:wrap; max-width:820px; margin:0 auto 1.5rem; padding:0 1.5rem; }
+    .filter-btn { padding:.45rem 1rem; border:1px solid #d1fae5; border-radius:50px; background:#fff; color:#065f46; font-size:.85rem; font-weight:500; cursor:pointer; font-family:inherit; transition:all .25s ease; }
+    .filter-btn:hover { background:#ecfdf5; }
+    .filter-btn.active { background:#059669; color:#fff; border-color:#059669; }
+    .article-card.hidden { display:none; }
+  </style>
 </head>
 <body>
   <header class="site-header" id="header">
@@ -41,9 +48,14 @@
     <p>Informação de saúde baseada em evidências, explicada de forma simples e direta.</p>
   </section>
 
+  <div class="filter-bar">
+      <button class="filter-btn active" data-cat="all">Todos</button>
+      <button class="filter-btn" data-cat="nutricao">Nutrição</button>
+  </div>
+
   <div class="blog-listing">
-    <div class="articles-grid">
-      <div class="article-card">
+    <div class="articles-grid" id="articles-grid">
+      <div class="article-card" data-category="nutricao">
         <div class="article-card-body">
           <span class="article-tag">Nutrição</span>
           <h3><a href="/blog/proteina-por-dia-quanto-preciso/">Quanta proteína por dia você realmente precisa? Guia baseado em evidências</a></h3>
@@ -51,7 +63,7 @@
           <div class="article-meta">19 de março de 2026</div>
         </div>
       </div>
-      <div class="article-card">
+      <div class="article-card" data-category="nutricao">
         <div class="article-card-body">
           <span class="article-tag">Nutrição</span>
           <h3><a href="/blog/creatina-funciona-para-que-serve/">Creatina funciona? Para que serve, dosagem e o que a ciência diz</a></h3>
@@ -59,7 +71,7 @@
           <div class="article-meta">19 de março de 2026</div>
         </div>
       </div>
-      <div class="article-card">
+      <div class="article-card" data-category="nutricao">
         <div class="article-card-body">
           <span class="article-tag">Nutrição</span>
           <h3><a href="/blog/vitamina-d-deficiencia-sintomas-como-repor/">Vitamina D: sintomas de deficiência, como repor e dosagem segura</a></h3>
@@ -67,7 +79,7 @@
           <div class="article-meta">19 de março de 2026</div>
         </div>
       </div>
-      <div class="article-card">
+      <div class="article-card" data-category="nutricao">
         <div class="article-card-body">
           <span class="article-tag">Nutrição</span>
           <h3><a href="/blog/jejum-intermitente-funciona-riscos/">Jejum intermitente funciona para emagrecer? Benefícios, riscos e como fazer</a></h3>
@@ -75,7 +87,7 @@
           <div class="article-meta">19 de março de 2026</div>
         </div>
       </div>
-      <div class="article-card">
+      <div class="article-card" data-category="nutricao">
         <div class="article-card-body">
           <span class="article-tag">Nutrição</span>
           <h3><a href="/blog/dieta-mediterranea-o-que-e-beneficios/">Dieta mediterrânea: o que é, benefícios comprovados e como seguir no Brasil</a></h3>
@@ -83,7 +95,7 @@
           <div class="article-meta">19 de março de 2026</div>
         </div>
       </div>
-      <div class="article-card">
+      <div class="article-card" data-category="nutricao">
         <div class="article-card-body">
           <span class="article-tag">Nutrição</span>
           <h3><a href="/blog/omega-3-beneficios-como-escolher/">Ômega 3: benefícios, como escolher o melhor suplemento e dosagem</a></h3>
@@ -91,7 +103,7 @@
           <div class="article-meta">19 de março de 2026</div>
         </div>
       </div>
-      <div class="article-card">
+      <div class="article-card" data-category="nutricao">
         <div class="article-card-body">
           <span class="article-tag">Nutrição</span>
           <h3><a href="/blog/acucar-faz-mal-quanto-posso-consumir/">Açúcar faz mal? Quanto você pode consumir por dia segundo a OMS</a></h3>
@@ -99,7 +111,7 @@
           <div class="article-meta">19 de março de 2026</div>
         </div>
       </div>
-      <div class="article-card">
+      <div class="article-card" data-category="nutricao">
         <div class="article-card-body">
           <span class="article-tag">Nutrição</span>
           <h3><a href="/blog/fibras-alimentares-beneficios-quanto-comer/">Fibras alimentares: benefícios, quanto comer por dia e melhores fontes</a></h3>
@@ -107,7 +119,7 @@
           <div class="article-meta">19 de março de 2026</div>
         </div>
       </div>
-      <div class="article-card">
+      <div class="article-card" data-category="nutricao">
         <div class="article-card-body">
           <span class="article-tag">Nutrição</span>
           <h3><a href="/blog/ultraprocessados-por-que-evitar-lista/">Ultraprocessados: o que são, por que evitar e lista dos mais comuns</a></h3>
@@ -115,7 +127,7 @@
           <div class="article-meta">19 de março de 2026</div>
         </div>
       </div>
-      <div class="article-card">
+      <div class="article-card" data-category="nutricao">
         <div class="article-card-body">
           <span class="article-tag">Nutrição</span>
           <h3><a href="/blog/whey-protein-vale-a-pena-como-escolher/">Whey protein vale a pena? Como escolher, tipos e quando tomar</a></h3>
@@ -123,7 +135,7 @@
           <div class="article-meta">19 de março de 2026</div>
         </div>
       </div>
-      <div class="article-card">
+      <div class="article-card" data-category="nutricao">
         <div class="article-card-body">
           <span class="article-tag">Nutrição</span>
           <h3><a href="/blog/gordura-boa-gordura-ruim-diferenca/">Gordura boa vs gordura ruim: qual a diferença e quanto consumir</a></h3>
@@ -131,7 +143,7 @@
           <div class="article-meta">19 de março de 2026</div>
         </div>
       </div>
-      <div class="article-card">
+      <div class="article-card" data-category="nutricao">
         <div class="article-card-body">
           <span class="article-tag">Nutrição</span>
           <h3><a href="/blog/ferro-anemia-alimentos-ricos/">Ferro e anemia: sintomas, alimentos ricos em ferro e como melhorar a absorção</a></h3>
@@ -139,7 +151,7 @@
           <div class="article-meta">19 de março de 2026</div>
         </div>
       </div>
-      <div class="article-card">
+      <div class="article-card" data-category="nutricao">
         <div class="article-card-body">
           <span class="article-tag">Nutrição</span>
           <h3><a href="/blog/probioticos-prebioticos-intestino-saudavel/">Probióticos e prebióticos: o que são, diferenças e como ter um intestino saudável</a></h3>
@@ -147,7 +159,7 @@
           <div class="article-meta">19 de março de 2026</div>
         </div>
       </div>
-      <div class="article-card">
+      <div class="article-card" data-category="nutricao">
         <div class="article-card-body">
           <span class="article-tag">Nutrição</span>
           <h3><a href="/blog/cafeina-beneficios-limite-seguro/">Cafeína: benefícios, limite seguro por dia e efeitos no corpo</a></h3>
@@ -155,7 +167,7 @@
           <div class="article-meta">19 de março de 2026</div>
         </div>
       </div>
-      <div class="article-card">
+      <div class="article-card" data-category="nutricao">
         <div class="article-card-body">
           <span class="article-tag">Nutrição</span>
           <h3><a href="/blog/mitos-alimentacao-saudavel-verdades/">10 mitos sobre alimentação saudável que a ciência já desmentiu</a></h3>
@@ -196,6 +208,42 @@
     window.addEventListener('scroll', function() {
       document.getElementById('header').classList.toggle('scrolled', window.scrollY > 10);
     });
+
+    /* ── Filtro por categoria ── */
+    (function() {
+      var btns = document.querySelectorAll('.filter-btn');
+      var cards = document.querySelectorAll('.article-card');
+
+      /* Ler ?cat= da URL */
+      var params = new URLSearchParams(window.location.search);
+      var initialCat = params.get('cat') || 'all';
+
+      function filterBy(cat) {
+        btns.forEach(function(b) {
+          b.classList.toggle('active', b.getAttribute('data-cat') === cat);
+        });
+        cards.forEach(function(c) {
+          if (cat === 'all' || c.getAttribute('data-category') === cat) {
+            c.classList.remove('hidden');
+          } else {
+            c.classList.add('hidden');
+          }
+        });
+      }
+
+      btns.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var cat = this.getAttribute('data-cat');
+          filterBy(cat);
+          history.replaceState(null, '', cat === 'all' ? '/blog/' : '/blog/?cat=' + cat);
+        });
+      });
+
+      /* Aplicar filtro inicial se ?cat= presente */
+      if (initialCat !== 'all') {
+        filterBy(initialCat);
+      }
+    })();
   </script>
 </body>
 </html>
