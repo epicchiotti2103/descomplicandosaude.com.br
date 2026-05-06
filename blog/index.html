@@ -3,25 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Artigos — Descomplicando Saúde</title>
-  <meta name="description" content="Artigos sobre saúde baseados em evidências científicas. Nutrição, bem-estar, saúde mental e prevenção explicados de forma acessível.">
-  <meta name="robots" content="index, follow">
+  <title>Blog — Descomplicando Saúde</title>
+  <meta name="description" content="Artigos de saúde baseados em evidências, escritos de forma acessível para o público brasileiro.">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <meta name="author" content="Elio Picchiotti">
   <link rel="canonical" href="https://descomplicandosaude.com.br/blog/">
-  <meta property="og:title" content="Artigos — Descomplicando Saúde">
-  <meta property="og:description" content="Artigos sobre saúde baseados em evidências científicas. Sem jargão, sem complicação.">
-  <meta property="og:url" content="https://descomplicandosaude.com.br/blog/">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://descomplicandosaude.com.br/assets/img/og-default.png">
-  <link rel="icon" href="/assets/img/favicon.ico">
-  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <meta property="og:title" content="Blog — Descomplicando Saúde">
+  <meta property="og:description" content="Artigos de saúde baseados em evidências, escritos de forma acessível para o público brasileiro.">
+  <meta property="og:url" content="https://descomplicandosaude.com.br/blog/">
+  <meta property="og:site_name" content="Descomplicando Saúde">
+  <meta property="og:locale" content="pt_BR">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Blog — Descomplicando Saúde">
+  <meta name="twitter:description" content="Artigos de saúde baseados em evidências, escritos de forma acessível para o público brasileiro.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/style.css">
-  <style>
-    .filter-bar { display:flex; gap:.5rem; flex-wrap:wrap; max-width:820px; margin:0 auto 1.5rem; padding:0 1.5rem; }
-    .filter-btn { padding:.45rem 1rem; border:1px solid #d1fae5; border-radius:50px; background:#fff; color:#065f46; font-size:.85rem; font-weight:500; cursor:pointer; font-family:inherit; transition:all .25s ease; }
-    .filter-btn:hover { background:#ecfdf5; }
-    .filter-btn.active { background:#059669; color:#fff; border-color:#059669; }
-    .article-card.hidden { display:none; }
-  </style>
+  <link rel="icon" href="/favicon.ico">
 </head>
 <body>
   <header class="site-header" id="header">
@@ -34,154 +34,138 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
       </button>
       <nav>
-        <ul>
-          <li><a href="/blog/">Artigos</a></li>
-          <li><a href="/sobre.html">Sobre</a></li>
-          <li><a href="/contato.html">Contato</a></li>
-        </ul>
+        <a href="/">Home</a>
+        <a href="/blog/" class="active">Artigos</a>
+        <a href="/sobre.html">Sobre nós</a>
+        <a href="/contato.html">Contato</a>
       </nav>
     </div>
   </header>
-
-  <section class="page-header">
-    <h1>Artigos</h1>
-    <p>Informação de saúde baseada em evidências, explicada de forma simples e direta.</p>
-  </section>
-
-  <div class="filter-bar">
-      <button class="filter-btn active" data-cat="all">Todos</button>
-      <button class="filter-btn" data-cat="nutricao">Nutrição</button>
-      <button class="filter-btn" data-cat="bem-estar">Bem-estar</button>
-      <button class="filter-btn" data-cat="saude-mental">Saúde Mental</button>
-      <button class="filter-btn" data-cat="doencas">Doenças</button>
-      <button class="filter-btn" data-cat="beleza">Beleza</button>
-  </div>
-
   <div class="blog-listing">
-    <div class="articles-grid" id="articles-grid">
-      <div class="article-card" data-category="nutricao">
+    <h1>Artigos de Saúde</h1>
+    <p style="margin-bottom:2rem;color:var(--neutral-600)">Informação confiável, baseada em evidências e escrita de forma acessível. Não substituímos orientação médica.</p>
+    
+      <div class="article-card fade-in">
         <div class="article-card-body">
-          <span class="article-tag">Nutrição</span>
+          <span class="article-tag">mitos</span>
           <h3><a href="/blog/mitos-alimentacao-saudavel-verdades/">10 mitos sobre alimentação saudável que a ciência já desmentiu</a></h3>
           <p>Descubra os mitos alimentares que a ciência já desmentiu: ovo não aumenta colesterol perigosamente, glúten não faz mal para todos. Evidências científicas atualizadas.</p>
-          <div class="article-meta">26 de março de 2025</div>
+          <div class="article-meta">26 MAR 2025</div>
         </div>
       </div>
-      <div class="article-card" data-category="nutricao">
+      <div class="article-card fade-in">
         <div class="article-card-body">
-          <span class="article-tag">Nutrição</span>
+          <span class="article-tag">cafeína</span>
           <h3><a href="/blog/cafeina-beneficios-limite-seguro/">Cafeína: benefícios, limite seguro por dia e efeitos no corpo</a></h3>
           <p>Descubra os benefícios da cafeína, quanto consumir por dia com segurança, efeitos no corpo e quem deve limitar o consumo. Baseado em evidências científicas.</p>
-          <div class="article-meta">21 de março de 2025</div>
+          <div class="article-meta">21 MAR 2025</div>
         </div>
       </div>
-      <div class="article-card" data-category="nutricao">
+      <div class="article-card fade-in">
         <div class="article-card-body">
-          <span class="article-tag">Nutrição</span>
+          <span class="article-tag">probióticos</span>
           <h3><a href="/blog/probioticos-prebioticos-intestino-saudavel/">Probióticos e prebióticos: o que são, diferenças e como ter um intestino saudável</a></h3>
           <p>Entenda a diferença entre probióticos e prebióticos, seus benefícios para a saúde intestinal e como incluí-los na sua alimentação diária.</p>
-          <div class="article-meta">17 de março de 2025</div>
+          <div class="article-meta">17 MAR 2025</div>
         </div>
       </div>
-      <div class="article-card" data-category="nutricao">
+      <div class="article-card fade-in">
         <div class="article-card-body">
-          <span class="article-tag">Nutrição</span>
+          <span class="article-tag">ferro</span>
           <h3><a href="/blog/ferro-anemia-alimentos-ricos/">Ferro e anemia: sintomas, alimentos ricos em ferro e como melhorar a absorção</a></h3>
           <p>Descubra os principais sintomas da anemia, alimentos ricos em ferro e como melhorar a absorção deste mineral essencial para sua saúde.</p>
-          <div class="article-meta">11 de março de 2025</div>
+          <div class="article-meta">11 MAR 2025</div>
         </div>
       </div>
-      <div class="article-card" data-category="nutricao">
+      <div class="article-card fade-in">
         <div class="article-card-body">
-          <span class="article-tag">Nutrição</span>
+          <span class="article-tag">gorduras</span>
           <h3><a href="/blog/gordura-boa-gordura-ruim-diferenca/">Gordura boa vs gordura ruim: qual a diferença e quanto consumir</a></h3>
           <p>Entenda a diferença entre gordura saturada, insaturada e trans. Descubra quais fazem bem e quanto consumir para uma alimentação saudável.</p>
-          <div class="article-meta">7 de março de 2025</div>
+          <div class="article-meta">07 MAR 2025</div>
         </div>
       </div>
-      <div class="article-card" data-category="nutricao">
+      <div class="article-card fade-in">
         <div class="article-card-body">
-          <span class="article-tag">Nutrição</span>
+          <span class="article-tag">whey protein</span>
           <h3><a href="/blog/whey-protein-vale-a-pena-como-escolher/">Whey protein vale a pena? Como escolher, tipos e quando tomar</a></h3>
           <p>Descubra se whey protein vale a pena, diferenças entre concentrado, isolado e hidrolisado, como escolher e quando tomar. Guia baseado em evidências.</p>
-          <div class="article-meta">3 de março de 2025</div>
+          <div class="article-meta">03 MAR 2025</div>
         </div>
       </div>
-      <div class="article-card" data-category="nutricao">
+      <div class="article-card fade-in">
         <div class="article-card-body">
-          <span class="article-tag">Nutrição</span>
+          <span class="article-tag">ultraprocessados</span>
           <h3><a href="/blog/ultraprocessados-por-que-evitar-lista/">Ultraprocessados: o que são, por que evitar e lista dos mais comuns</a></h3>
           <p>Descubra o que são ultraprocessados, por que fazem mal à saúde e veja lista completa dos alimentos ultraprocessados mais consumidos no Brasil.</p>
-          <div class="article-meta">24 de fevereiro de 2025</div>
+          <div class="article-meta">24 FEV 2025</div>
         </div>
       </div>
-      <div class="article-card" data-category="nutricao">
+      <div class="article-card fade-in">
         <div class="article-card-body">
-          <span class="article-tag">Nutrição</span>
+          <span class="article-tag">fibras</span>
           <h3><a href="/blog/fibras-alimentares-beneficios-quanto-comer/">Fibras alimentares: benefícios, quanto comer por dia e melhores fontes</a></h3>
           <p>Descubra os benefícios das fibras alimentares, a quantidade ideal por dia (25g segundo a OMS) e os melhores alimentos ricos em fibras.</p>
-          <div class="article-meta">18 de fevereiro de 2025</div>
+          <div class="article-meta">18 FEV 2025</div>
         </div>
       </div>
-      <div class="article-card" data-category="nutricao">
+      <div class="article-card fade-in">
         <div class="article-card-body">
-          <span class="article-tag">Nutrição</span>
+          <span class="article-tag">açúcar</span>
           <h3><a href="/blog/acucar-faz-mal-quanto-posso-consumir/">Açúcar faz mal? Quanto você pode consumir por dia segundo a OMS</a></h3>
           <p>A OMS recomenda menos de 25g de açúcar livre por dia. Descubra a diferença entre açúcar adicionado e natural, os riscos do excesso e como reduzir o consumo.</p>
-          <div class="article-meta">12 de fevereiro de 2025</div>
+          <div class="article-meta">12 FEV 2025</div>
         </div>
       </div>
-      <div class="article-card" data-category="nutricao">
+      <div class="article-card fade-in">
         <div class="article-card-body">
-          <span class="article-tag">Nutrição</span>
+          <span class="article-tag">ômega 3</span>
           <h3><a href="/blog/omega-3-beneficios-como-escolher/">Ômega 3: benefícios, como escolher o melhor suplemento e dosagem</a></h3>
           <p>Guia completo sobre ômega 3: benefícios cientificamente comprovados, diferenças entre EPA e DHA, como escolher o melhor suplemento e dosagem recomendada.</p>
-          <div class="article-meta">7 de fevereiro de 2025</div>
+          <div class="article-meta">07 FEV 2025</div>
         </div>
       </div>
-      <div class="article-card" data-category="nutricao">
+      <div class="article-card fade-in">
         <div class="article-card-body">
-          <span class="article-tag">Nutrição</span>
+          <span class="article-tag">dieta mediterrânea</span>
           <h3><a href="/blog/dieta-mediterranea-o-que-e-beneficios/">Dieta mediterrânea: o que é, benefícios comprovados e como seguir no Brasil</a></h3>
           <p>A dieta mediterrânea é um padrão alimentar baseado na culinária dos países do Mediterrâneo, com benefícios comprovados para o coração e cérebro.</p>
-          <div class="article-meta">3 de fevereiro de 2025</div>
+          <div class="article-meta">03 FEV 2025</div>
         </div>
       </div>
-      <div class="article-card" data-category="nutricao">
+      <div class="article-card fade-in">
         <div class="article-card-body">
-          <span class="article-tag">Nutrição</span>
+          <span class="article-tag">jejum intermitente</span>
           <h3><a href="/blog/jejum-intermitente-funciona-riscos/">Jejum intermitente funciona para emagrecer? Benefícios, riscos e como fazer</a></h3>
           <p>Descubra se o jejum intermitente realmente funciona para emagrecer, quais os protocolos mais eficazes e como fazer com segurança. Baseado em evidências científicas.</p>
-          <div class="article-meta">27 de janeiro de 2025</div>
+          <div class="article-meta">27 JAN 2025</div>
         </div>
       </div>
-      <div class="article-card" data-category="nutricao">
+      <div class="article-card fade-in">
         <div class="article-card-body">
-          <span class="article-tag">Nutrição</span>
+          <span class="article-tag">vitamina D</span>
           <h3><a href="/blog/vitamina-d-deficiencia-sintomas-como-repor/">Vitamina D: sintomas de deficiência, como repor e dosagem segura</a></h3>
           <p>Descubra os sintomas da deficiência de vitamina D, valores de referência, alimentos fonte e como fazer a suplementação de forma segura com orientação médica.</p>
-          <div class="article-meta">21 de janeiro de 2025</div>
+          <div class="article-meta">21 JAN 2025</div>
         </div>
       </div>
-      <div class="article-card" data-category="nutricao">
+      <div class="article-card fade-in">
         <div class="article-card-body">
-          <span class="article-tag">Nutrição</span>
+          <span class="article-tag">creatina</span>
           <h3><a href="/blog/creatina-funciona-para-que-serve/">Creatina funciona? Para que serve, dosagem e o que a ciência diz</a></h3>
           <p>Creatina funciona mesmo? Descubra o que a ciência comprova sobre este suplemento para performance, massa muscular e saúde cognitiva.</p>
-          <div class="article-meta">14 de janeiro de 2025</div>
+          <div class="article-meta">14 JAN 2025</div>
         </div>
       </div>
-      <div class="article-card" data-category="nutricao">
+      <div class="article-card fade-in">
         <div class="article-card-body">
-          <span class="article-tag">Nutrição</span>
+          <span class="article-tag">proteína</span>
           <h3><a href="/blog/proteina-por-dia-quanto-preciso/">Quanta proteína por dia você realmente precisa? Guia baseado em evidências</a></h3>
           <p>Descubra quanta proteína você deve consumir por dia baseado nas evidências científicas mais recentes. Guia completo com recomendações por perfil e fontes.</p>
-          <div class="article-meta">8 de janeiro de 2025</div>
+          <div class="article-meta">08 JAN 2025</div>
         </div>
       </div>
-    </div>
   </div>
-
   <footer class="site-footer">
     <div class="footer-inner">
       <div class="footer-brand">
@@ -197,57 +181,14 @@
       </div>
       <div class="footer-col">
         <h4>Legal</h4>
-        <a href="/privacidade.html">Política de Privacidade</a>
-        <a href="/sobre.html#editorial">Política Editorial</a>
+        <a href="/privacidade.html">Privacidade</a>
+        <a href="/sobre.html">Equipe editorial</a>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>&copy; 2025 Descomplicando Saúde. Todos os direitos reservados.</span>
-      <span>Este site não substitui orientação médica profissional.</span>
+      <span>&copy; 2026 Descomplicando Saúde. Todos os direitos reservados.</span>
     </div>
   </footer>
-
   <script src="/assets/js/main.js"></script>
-  <script>
-    window.addEventListener('scroll', function() {
-      document.getElementById('header').classList.toggle('scrolled', window.scrollY > 10);
-    });
-
-    /* ── Filtro por categoria ── */
-    (function() {
-      var btns = document.querySelectorAll('.filter-btn');
-      var cards = document.querySelectorAll('.article-card');
-
-      /* Ler ?cat= da URL */
-      var params = new URLSearchParams(window.location.search);
-      var initialCat = params.get('cat') || 'all';
-
-      function filterBy(cat) {
-        btns.forEach(function(b) {
-          b.classList.toggle('active', b.getAttribute('data-cat') === cat);
-        });
-        cards.forEach(function(c) {
-          if (cat === 'all' || c.getAttribute('data-category') === cat) {
-            c.classList.remove('hidden');
-          } else {
-            c.classList.add('hidden');
-          }
-        });
-      }
-
-      btns.forEach(function(btn) {
-        btn.addEventListener('click', function() {
-          var cat = this.getAttribute('data-cat');
-          filterBy(cat);
-          history.replaceState(null, '', cat === 'all' ? '/blog/' : '/blog/?cat=' + cat);
-        });
-      });
-
-      /* Aplicar filtro inicial se ?cat= presente */
-      if (initialCat !== 'all') {
-        filterBy(initialCat);
-      }
-    })();
-  </script>
 </body>
 </html>
