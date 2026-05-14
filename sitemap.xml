@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://descomplicandosaude.com.br/</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://descomplicandosaude.com.br/blog/</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://descomplicandosaude.com.br/sobre.html</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://descomplicandosaude.com.br/contato.html</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://descomplicandosaude.com.br/privacidade.html</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -43,14 +43,44 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://descomplicandosaude.com.br/blog/ansiedade-estresse-alimentacao-conexao/</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://descomplicandosaude.com.br/blog/colageno-funciona-beneficios-como-escolher/</loc>
     <lastmod>2026-05-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://descomplicandosaude.com.br/blog/comer-intuitivo-o-que-e-como-comecar/</loc>
+    <lastmod>2026-05-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://descomplicandosaude.com.br/blog/como-ler-rotulos-alimentos-guia-pratico/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://descomplicandosaude.com.br/blog/como-montar-prato-equilibrado-metodo-pratico/</loc>
     <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://descomplicandosaude.com.br/blog/como-se-alimentar-ozempic-wegovy-glp-1/</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://descomplicandosaude.com.br/blog/hidratacao-eletrolitos-sinais-desidratacao-quanto-liquido/</loc>
+    <lastmod>2026-05-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
