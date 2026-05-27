@@ -2,33 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://descomplicandosaude.com.br/</loc>
-    <lastmod>2026-05-18</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://descomplicandosaude.com.br/blog/</loc>
-    <lastmod>2026-05-18</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://descomplicandosaude.com.br/sobre.html</loc>
-    <lastmod>2026-05-18</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://descomplicandosaude.com.br/contato.html</loc>
-    <lastmod>2026-05-18</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://descomplicandosaude.com.br/privacidade.html</loc>
-    <lastmod>2026-05-18</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://descomplicandosaude.com.br/blog/adaptogenos-ashwagandha-rhodiola-ginseng-estresse/</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://descomplicandosaude.com.br/blog/adaptogenos-o-que-sao-como-funcionam-estresse/</loc>
@@ -79,14 +85,38 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://descomplicandosaude.com.br/blog/dieta-mediterranea-cardapio-beneficios-adaptacao-brasil/</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://descomplicandosaude.com.br/blog/fibremaxxing-maximizar-fibras-como-aplicar/</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://descomplicandosaude.com.br/blog/hidratacao-eletrolitos-sinais-desidratacao-quanto-liquido/</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://descomplicandosaude.com.br/blog/leguminosas-feijao-lentilha-grao-de-bico-beneficios/</loc>
+    <lastmod>2026-05-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://descomplicandosaude.com.br/blog/magnesio-ansiedade-sono-tipos-qual-escolher/</loc>
     <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://descomplicandosaude.com.br/blog/omega-3-bom-como-identificar-qualidade-marcas/</loc>
+    <lastmod>2026-05-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
