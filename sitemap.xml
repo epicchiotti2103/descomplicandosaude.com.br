@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://descomplicandosaude.com.br/</loc>
-    <lastmod>2026-06-02</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://descomplicandosaude.com.br/blog/</loc>
-    <lastmod>2026-06-02</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://descomplicandosaude.com.br/sobre.html</loc>
-    <lastmod>2026-06-02</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://descomplicandosaude.com.br/contato.html</loc>
-    <lastmod>2026-06-02</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://descomplicandosaude.com.br/privacidade.html</loc>
-    <lastmod>2026-06-02</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -39,6 +39,12 @@
   <url>
     <loc>https://descomplicandosaude.com.br/blog/adaptogenos-o-que-sao-como-funcionam-estresse/</loc>
     <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://descomplicandosaude.com.br/blog/adaptogenos-quais-funcionam-estresse-ciencia/</loc>
+    <lastmod>2026-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -85,6 +91,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://descomplicandosaude.com.br/blog/dieta-mediterranea-adaptada-brasil-cardapio-ingredientes/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://descomplicandosaude.com.br/blog/dieta-mediterranea-cardapio-beneficios-adaptacao-brasil/</loc>
     <lastmod>2026-05-22</lastmod>
     <changefreq>monthly</changefreq>
@@ -92,7 +104,7 @@
   </url>
   <url>
     <loc>https://descomplicandosaude.com.br/blog/fibremaxxing-maximizar-fibras-como-aplicar/</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -117,6 +129,18 @@
   <url>
     <loc>https://descomplicandosaude.com.br/blog/omega-3-bom-como-identificar-qualidade-marcas/</loc>
     <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://descomplicandosaude.com.br/blog/polifenois-beneficios-antioxidantes-alimentos-ricos/</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://descomplicandosaude.com.br/blog/probioticos-prebioticos-cepas-alimentos-funcionam/</loc>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
